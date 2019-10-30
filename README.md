@@ -1,2 +1,2 @@
 # digital-clock
-Digital clock
+Digital clock built using css, js and html

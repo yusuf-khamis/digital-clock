@@ -1,0 +1,132 @@
+.off {
+    border-color: #f8f8f8;
+}
+.on {
+    border-color: #333333;
+}
+.clock-container {
+    position: absolute;
+    display: inline-block;
+}
+.digit {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 70px;
+    height: 136px;
+}
+.top-bar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    border-width: 15px;
+    border-style: solid;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.left-top-bar {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    border-width: 13px 13px 10px 13px;
+    border-style: solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.right-top-bar {
+    position: absolute;
+    top: 15px;
+    left: 54px;
+    height: 40px;
+    border-width: 13px 13px 10px 13px;
+    border-style: solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.middle-top-bar {
+    position: absolute;
+    top: 58px;
+    left: 15px;
+    width: 40px;
+    border-width: 13px 10px 8px 10px;
+    border-style: solid;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.middle-bottom-bar {
+    position: absolute;
+    top: 79px;
+    left: 15px;
+    width: 40px;
+    border-width: 8px 10px 13px 10px;
+    border-style: solid;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.left-bottom-bar {
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    height: 40px;
+    border-width: 10px 13px 13px 13px;
+    border-style: solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+}
+.right-bottom-bar {
+    position: absolute;
+    top: 80px;
+    left: 54px;
+    height: 40px;
+    border-width: 10px 13px 13px 13px;
+    border-style: solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.bottom-bar {
+    position: absolute;
+    top: 118px;
+    left: 10px;
+    width: 40px;
+    border-width: 15px;
+    border-style: solid;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+
+.dots {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 20px;
+    height: 136px;
+} 
+.dots > div:first-child {
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 48px;
+    background-color: #efefef;
+}
+.dots > div:last-child {
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 98px;
+    background-color: #efefef;
+}
+.dots > div.active {
+    background-color: #333333;
+}
